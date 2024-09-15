@@ -305,4 +305,154 @@ const categoryExpenses9 = [
   // next task
 
 
+  const travelItinerary = ['paris','tokyo','new york'];
+  const destinationtocheck = 'tokyo';
+
+  for(let i = 0;i<travelItinerary.length;i++){
+    if(travelItinerary[i]===destinationtocheck){
+      console.log('this same destination');
+    }
+  }
+
+  const travelDates2 = [
+    '2023-07-01',
+    '2023-07-15',
+    '2023-08-01'
+  ];
   
+  const reversedTravelDates = travelDates2.reverse();
+  
+  console.log("Reversed Travel Dates:", reversedTravelDates);
+
+  const travelActivities3 = [
+    'Sightseeing',
+    'Hiking',
+    'Dining'
+  ];
+  
+  const travelActivitiesString = travelActivities3.join(', ');
+  
+  console.log("Travel Activities:", travelActivitiesString);
+
+  const destinationList5 = [
+    'Paris',
+    'Tokyo',
+    'New York City'
+  ];
+  const specificDestination5 = 'New York City';
+  
+  const index = destinationList5.indexOf(specificDestination5);
+  
+  console.log(`Index of ${specificDestination5}:`, index);
+
+  const upcomingTrips6 = [
+    'Greece',
+    'Iceland',
+    'Japan'
+  ];
+  
+  const removedDestination = upcomingTrips6.pop();
+  
+  console.log("Updated Trip List:", upcomingTrips6);
+  console.log("Removed Destination:", removedDestination);
+
+  const bucketListDestinations7 = [
+    'Machu Picchu',
+    'Great Wall of China'
+  ];
+  const newDestination7 = 'Aurora Australis in Antarctica';
+  
+  bucketListDestinations7.unshift(newDestination7);
+  
+  console.log("Updated Bucket List:", bucketListDestinations7);
+
+
+  const europeanCapitals8 = ['Paris', 'Berlin', 'Madrid'];
+
+const removedCapital = europeanCapitals8.shift();
+
+console.log("Removed Capital:", removedCapital);
+console.log("Updated Capitals List:", europeanCapitals8);
+
+const beachDestinations9 = ['Maldives', 'Bora Bora'];
+const cityDestinations9 = ['New York', 'Tokyo'];
+
+const allDestinations9 = beachDestinations9.concat(cityDestinations9);
+console.log("All Destinations:", allDestinations9);
+
+const destinationList10 = ['Paris', 'Tokyo', 'New York City'];
+
+const sortedDestinations10 = destinationList10.sort();
+console.log("Alphabetically Sorted Destinations:", sortedDestinations10);
+
+const packingListString11 = 'Passport,Sunscreen,Camera';
+
+const packingListArray11 = packingListString11.split(',');
+console.log("Packing List Array:", packingListArray11);
+
+
+const tripItinerary12 = [
+  'Visit Louvre',
+  'Eiffel Tower',
+  'Seine River Cruise',
+];
+const n12 = 2;
+
+const firstFewDays12 = tripItinerary12.slice(0, n12);
+console.log("First Few Days of Itinerary:", firstFewDays12);
+
+const travelWishlist13 = [
+  'Northern Lights in Norway',
+  'Safari in Kenya',
+  'Great Barrier Reef'
+];
+
+
+travelWishlist13.splice(0, travelWishlist13.length);
+
+console.log("Empty Wishlist:", travelWishlist13);
+
+const destinations14 = ['Paris', 'Tokyo'];
+const newDestination14 = 'New York City';
+
+
+destinations14.push(newDestination14);
+
+console.log("Updated Destinations:", destinations14);
+
+const destinations15 = [
+  'Paris',
+  'Tokyo',
+  'New York City'
+];
+
+
+const lastDestination = destinations15.pop();
+
+console.log("Updated Destinations:", destinations15);
+console.log("Removed Destination:", lastDestination);
+
+
+const destinations16 = [
+  'Paris',
+  'Tokyo',
+  'New York City',
+];
+
+
+const destinationsString = destinations16.join(', ');
+
+console.log("Destinations String:", destinationsString);
+
+const destinations17 = [
+  'Paris',
+  'Tokyo',
+  'New York City'
+];
+const destinationToFind17 = 'Tokyo';
+
+const indexx = destinations17.indexOf(destinationToFind17);
+
+console.log("Index of Destination:", indexx);
+
+
